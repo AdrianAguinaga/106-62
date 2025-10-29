@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    height: 100vh;
+}
+#list{
+    flex:2;
+    background-color: rgb(149, 230, 203);
+}
+#form{
+    flex:2;
+    background-color: rgb(172, 147, 85);
+}
+/* please using the relationships of the sections
+, cover the two sections with a solid color */
