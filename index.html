@@ -13,7 +13,15 @@
 <body>
     <!-- <div></div> -->
     <main>
-        <section id="list">List</section>
+        <!-- this is the section that gets data from the server -->
+        <section id="list">
+            <button id="btnDetails" class="btn btn-outline-primary">Details</button>
+            <div class="pending-task">
+                <!-- tasks will be rendered here -->
+            </div>
+        </section>
+        
+        <!-- this is the section that sends data to the server -->
         <section id="form">
             <div class="mb-3">
                 <label class="form-label">Title</label>
@@ -51,8 +59,11 @@
                 <button id="btnSave" class="btn btn-primary">Save</button>
                 
         </section>
+
+
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./scripts/Task.js"></script>
     <script src="./scripts/app.js"></script>
 </body>
 
